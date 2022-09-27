@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import styles from "@styles/ChangePages.module.css";
+import styles from "@styles/ChangePages.module.scss";
 
 const ChangePages = () => {
 

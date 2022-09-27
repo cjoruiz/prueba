@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import image from "next/image";
-import styles from "@styles/ProjectsScroll.module.css";
+import styles from "@styles/ProjectsScroll.module.scss";
 import Link from "next/link";
 
 const ProductLista = () => {

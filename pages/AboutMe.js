@@ -1,6 +1,6 @@
 
 import ChangePages from "@components/ChangePages";
-import styles from "@styles/AboutMe.module.css";
+import styles from "@styles/AboutMe.module.scss";
 import ProjectsList from "Containers/ProjectsScroll/nuevo";
 
 const AboutMe = () => {

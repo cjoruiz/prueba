@@ -1,6 +1,6 @@
 import ChangePages from "@components/ChangePages";
 import ProjectsList from "Containers/ProjectsScroll/rerer";
-import styles from "@styles/Projects.module.css"
+import styles from "@styles/Projects.module.scss"
 
 const Projects = () => {
   return (
