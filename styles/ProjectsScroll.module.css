@@ -1,0 +1,109 @@
+.scroll_main_container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    z-index: 2;
+    justify-items: center;
+    position: relative;
+}
+.slider{
+
+        height: 220px;
+        max-width: 400px;
+        width: 300px;
+        grid-column: 2;
+        border: 2px dashed blue;
+}
+.scroll_main_projects{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        position: relative;
+        background-color: white;
+}
+.scroll_main_projects img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.scroll_main_projects h3 {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+}
+.scroll_projects_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.slider_projects{
+    display: inline-block;
+    height: auto;
+    text-align: center;
+}
+.scroll_projects_projects {
+    display:inline-block ;
+    text-decoration: none;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+
+}
+.scroll_projects_projects img {
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.scroll_projects_projects_links{
+        border-radius: 0px 0px 10px 10px;
+        position: absolute;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+}
+.scroll_projects_projects h2 {
+    border: 3px solid purple;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px dashed whitesmoke;
+
+    text-transform: capitalize;
+}
+.project_title_container{
+    display: flex;
+}
+.project_title_container :hover {
+    box-shadow: 0px 0px 10px 10px #395B64;
+    -webkit-box-shadow: 0px 0px 10px 10px #395B64;
+
+}
+.project_title_container a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+
+    text-transform: capitalize;
+}
+@media(max-width:1430px) {
+
+    .scroll_main_container {
+        height: 300px;
+        align-items: start;
+    }
+
+}

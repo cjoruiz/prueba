@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@pages/*": ["pages/*"],
+      "@Containers/*": ["Containers/*"],
+      "@database": ["database/db.js"],
+    }
+  },
+    "exclude": ["node_modules, .next"],
+  "include": ["**/*.js", "**/*.jsx"]
+}

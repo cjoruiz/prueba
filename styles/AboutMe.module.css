@@ -1,0 +1,13 @@
+.AboutMe2_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.AboutMe2_container ul {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 70px;
+    border-bottom: 2px dotted #0b0a0aac;;
+}
