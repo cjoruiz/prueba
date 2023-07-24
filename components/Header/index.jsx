@@ -23,13 +23,13 @@ const Header = () => {
       <div className={styles.navbar_right}>
         <ul class="icons">
           <li>
-            <a href="/" target="_blank">
-              <img src="icons/mail-envelope (1).svg" alt="logo of email" />
+            <a href="https://github.com/cjoruiz" target="_blank">
+              <img src="icons/github (18).svg" alt="logo of github" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/cjoruiz" target="_blank">
-              <img src="icons/github (18).svg" alt="logo of github" />
+            <a href="/" target="_blank">
+              <img src="icons/mail-envelope (1).svg" alt="logo of email" />
             </a>
           </li>
           <li>

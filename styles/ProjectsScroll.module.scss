@@ -1,60 +1,54 @@
 .scroll_main_container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    z-index: 2;
-    justify-items: center;
-    position: relative;
+    display: flex;
+    width: auto;
+    height: 80vh;
+    flex-wrap: wrap;
+    overflow:scroll;
+    overflow-x: hidden;
+   // border: 5px solid blue;
+    justify-content: center;
+    
 }
-.slider{
 
-        height: 220px;
-        max-width: 400px;
-        width: 300px;
-        grid-column: 2;
-        border: 2px dashed blue;
-}
 .scroll_main_projects{
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
-        position: relative;
-        background-color: white;
+    display: inline;
+    border: 5px solid yellow;
+    margin: 20px;
+    width:calc(100%/5);
+    border-radius: 10%  ;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(32, 24, 38);
 }
 .scroll_main_projects img {
-    height: 100%;
+    position: relative;
+    height: 75%;
     width: 100%;
     object-fit: cover;
 }
-.scroll_main_projects h3 {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
+ .scroll_main_projects h3 {
+    margin: 0;
     width: 100%;
-    height: 40px;
+    height: auto;
     line-height: 40px;
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
+    background:linear-gradient(transparent 0, #000 80%);
     text-transform: capitalize;
+    cursor:pointer;
 }
-.scroll_projects_container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+.scroll_main_projects :hover{
+    background-color:  hsl(193, 19%, 38%);
 }
-.slider_projects{
-    display: inline-block;
-    height: auto;
-    text-align: center;
-}
-.scroll_projects_projects {
-    display:inline-block ;
-    text-decoration: none;
-    position: relative;
-    margin: 20px 20px 20px 20px;
 
-}
+// .scroll_projects_projects {
+//     display:inline-block ;
+//     text-decoration: none;
+//     position: relative;
+//     margin: 20px 20px 20px 20px;
+
+// }
 .scroll_projects_projects img {
     border-radius: 10px 10px 0px 0px;
     width: 250px;
@@ -99,11 +93,11 @@
 
     text-transform: capitalize;
 }
-@media(max-width:1430px) {
+// @media(max-width:1430px) {
 
-    .scroll_main_container {
-        height: 300px;
-        align-items: start;
-    }
+//     .scroll_main_container {
+//         height: 300px;
+//         align-items: start;
+//     }
 
-}
+// }

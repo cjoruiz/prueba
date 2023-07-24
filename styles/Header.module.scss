@@ -1,7 +1,8 @@
 .header_container{
     min-width: 700px;
-    width: 100vw;
-    background-color: #385a6425;
+    width: 100%;
+   // background-color: #385a6425;
+    background: radial-gradient(farthest-side circle at 60px 70px, #345963, #06382e);
     height: 90px;
     display: grid;
     align-items: center;

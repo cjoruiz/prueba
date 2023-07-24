@@ -21,7 +21,6 @@ const ProductLista=()=>{
 
   return (
     <section className={styles.scroll_main_container}>
-      <div className={styles.slider}>
         {myProjectList.map((project) => (
           <Link href={project.URL}>
             <a className={styles.scroll_main_projects}>
@@ -35,7 +34,7 @@ const ProductLista=()=>{
             </a>
           </Link>
         ))}
-      </div>
+ 
     </section>
   );
 }

@@ -27,6 +27,20 @@ const data = {
     URL: "https://curso-next-js-weld.vercel.app/",
     github: "https://github.com/cjoruiz/curso-next_js/",
   },
+  5: {
+    id: "5",
+    title: "tienda avocado",
+    nameImage: "foto_no_exif (1).jpg",
+    URL: "https://curso-next-js-weld.vercel.app/",
+    github: "https://github.com/cjoruiz/curso-next_js/",
+  },
+  6: {
+    id: "6",
+    title: "tienda avocado",
+    nameImage: "foto_no_exif (1).jpg",
+    URL: "https://curso-next-js-weld.vercel.app/",
+    github: "https://github.com/cjoruiz/curso-next_js/",
+  },
 };
 
 export default data

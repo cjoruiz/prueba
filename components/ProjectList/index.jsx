@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import image from "next/image";
 import styles from "@styles/ProjectsScroll.module.scss";
 import Link from "next/link";
+import data from "database/data";
 
 const ProductLista = () => {
   const [myProjectList, setMyProductList] = useState([]);
@@ -16,23 +17,30 @@ const ProductLista = () => {
   }, []);
 
   return (
-    <section className={styles.scroll_main_container}>
-      <div className={styles.slider}>
-        {myProjectList.map((project) => (
-          <Link href={project.URL}>
+    <>
+      {myProjectList.length > 0 ? (
+        <section className={styles.scroll_main_container}>
+          {myProjectList.map((project) => (
             <a className={styles.scroll_main_projects}>
-              <img
-                src={`img/${project.nameImage}`}
-                height={150}
-                width={180}
-                alt={project.name}
-              />
-              <h3> {project.title} </h3>
+              <Link href={project.URL}>
+                <section>
+                  <img
+                    src={`img/${project.nameImage}`}
+                    height={150}
+                    width={180}
+                    alt={project.name}
+                  />
+                  <h3> {project.title} </h3>
+                </section>
+              </Link>
+              <h3>git hub</h3>
             </a>
-          </Link>
-        ))}
-      </div>
-    </section>
+          ))}
+        </section>
+      ) : (
+        <section className="loading">cargando ...</section>
+      )}
+    </>
   );
 };
 

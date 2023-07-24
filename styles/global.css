@@ -5,25 +5,36 @@ html{
     display: none;
 }
 body{
-    background: radial-gradient(farthest-side circle at 60px 70px, #395B64, #000);
+    background: radial-gradient(farthest-side circle at 60px 70px, #345963, #06382e);
     display: flex;
-    position: fixed;
+    position:fixed;
     background-attachment: fixed;
     margin: 0;   
 }
 #__next{
     display: flex;
-    width:auto;
+    width:100vw;
     /* background-color: chartreuse;
  */}
+ /* ::-webkit-scrollbar {
+    display: none;
+} */
 @media(max-width:1000px){
     body{
         position:inherit; 
     }
 }
 
-
-
+.loading{
+    height: 60vh;
+    width: 100vw;
+    background: #385a6400;
+    color: #FFF;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+}
 /* efect firefly */
 
 .firefly {
@@ -1331,4 +1342,3 @@ body{
     box-shadow: 0 0 2vw 0.4vw #327588;
   }
 }
-
