@@ -1,6 +1,9 @@
 import ChangePages from '@components/ChangePages';
 import styles from '@styles/Home.module.scss';
+import image from "next/image";
 import ProjectsList from 'Containers/ProjectsScroll';
+import chemms from "../public/img/cheems.png";
+
 
 const home = () => {
 
@@ -17,6 +20,7 @@ const home = () => {
             repudiandae autem alias. Eligendi at accusantium soluta quisquam
             blanditiis possimus, tenetur error .
           </p>
+          <img src='img/cheems.png' height={150} width={180} />;
         </div>
         <ChangePages />
       </section>
