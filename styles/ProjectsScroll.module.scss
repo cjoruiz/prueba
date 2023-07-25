@@ -2,12 +2,17 @@
     display: flex;
     width: auto;
     height: 90vh;
+    margin-top: 20px;
     flex-wrap: wrap;
-    overflow:scroll;
-    overflow-x: hidden;
+    overflow: hidden;
+     overflow:scroll;
+     overflow-x: hidden;
    // border: 5px solid blue;
     justify-content: center;
     
+}
+.scroll_main_container::-webkit-scrollbar {
+    -webkit-appearance: none;
 }
 
 .scroll_main_projects{
@@ -98,7 +103,9 @@
     .scroll_main_projects {
         
         width: calc(100%/3);
-       
+    }
+    .scroll_main_container {
+        height: auto;
     }
 }
 // @media(max-width:1430px) {
