@@ -41,8 +41,9 @@
         grid-template-rows: 3fr 1fr;
     }
     .home_main_container img {
+        margin-right: 30px;
+        position:fixed ;
         right: 0;
-        position: absolute;
     }
 
     .home_main_text {
