@@ -15,8 +15,8 @@ const home = () => {
         <div className={styles.home_main_text}>
           <img
             src="https://s2.coinmarketcap.com/static/img/coins/200x200/24988.png"
-            height={150}
-            width={180}
+            height={220}
+            width={250}
           />
           <h1>{textHome}</h1>
           <h1>I'm Cristian</h1>

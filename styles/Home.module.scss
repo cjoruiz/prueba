@@ -26,6 +26,11 @@
 .home_main_text_descrption {
     font-size: 24px;
 }
+ .home_main_container img {
+    border:5px outset #7accc1;
+    border-radius: 15%;
+     
+ }
 @media(max-width:1430px) {
     .home_main{
             background-repeat: repeat-y;
