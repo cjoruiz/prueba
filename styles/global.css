@@ -5,6 +5,7 @@ html{
     display: none;
 }
 body{
+  width: 100%;
     background: radial-gradient(farthest-side circle at 60px 70px, #345963, #06382e);
     display: flex;
     position:fixed;

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import image from "next/image";
 import styles from "@styles/ProjectsScroll.module.scss";
 import Link from "next/link";
-import data from "database/data";
+//import data from "database/data";
 
 const ProductLista = () => {
   const [myProjectList, setMyProductList] = useState([]);
@@ -25,7 +25,7 @@ const ProductLista = () => {
               <Link href={project.URL}>
                 <section>
                   <img
-                    src={`img/${project.nameImage}`}
+                    src={`img/${project.src}`}
                     height={150}
                     width={180}
                     alt={project.name}

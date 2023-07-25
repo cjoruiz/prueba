@@ -1,7 +1,7 @@
 .scroll_main_container {
     display: flex;
     width: auto;
-    height: 80vh;
+    height: 90vh;
     flex-wrap: wrap;
     overflow:scroll;
     overflow-x: hidden;
@@ -15,6 +15,7 @@
     border: 5px solid yellow;
     margin: 20px;
     width:calc(100%/5);
+    height: fit-content;
     border-radius: 10%  ;
     text-decoration: none;
     position: relative;
@@ -92,6 +93,13 @@
     color: white;
 
     text-transform: capitalize;
+}
+@media(max-width:735px) {
+    .scroll_main_projects {
+        
+        width: calc(100%/3);
+       
+    }
 }
 // @media(max-width:1430px) {
 
