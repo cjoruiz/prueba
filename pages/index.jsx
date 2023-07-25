@@ -25,11 +25,11 @@ const home = () => {
             repudiandae autem alias. Eligendi at accusantium soluta quisquam
             blanditiis possimus, tenetur error .
           </p>
-          </div>
+        </div>
         <ChangePages />
       </section>
       {/* <ProjectsList /> */}
-      <section className="home-main-images"></section>
+      <section className={styles.home_butoms}></section>
     </main>
   );
 }
