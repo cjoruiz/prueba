@@ -13,6 +13,11 @@ const home = () => {
     <main className={styles.home_main}>
       <section className={styles.home_main_container}>
         <div className={styles.home_main_text}>
+          <img
+            src="https://s2.coinmarketcap.com/static/img/coins/200x200/24988.png"
+            height={150}
+            width={180}
+          />
           <h1>{textHome}</h1>
           <h1>I'm Cristian</h1>
           <p className={styles.home_main_text_descrption}>
@@ -20,8 +25,7 @@ const home = () => {
             repudiandae autem alias. Eligendi at accusantium soluta quisquam
             blanditiis possimus, tenetur error .
           </p>
-          <img src='img/cheems.png' height={150} width={180} />;
-        </div>
+          </div>
         <ChangePages />
       </section>
       {/* <ProjectsList /> */}
