@@ -12,11 +12,11 @@ const ChangePages = () => {
           <a>projects</a>
         </Link>
       </li>
-      {/* <li id="pageProjects">
+      <li id="pageProjects">
         <Link href="AboutMe/">
           <a>About me</a>
         </Link>
-      </li> */}
+      </li>
     </ul>
   );
 };

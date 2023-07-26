@@ -15,8 +15,8 @@ body{
 #__next{
     display: flex;
     width:100vw;
-    /* background-color: chartreuse;
- */}
+    /* background-color: chartreuse;*/
+  }
  /* ::-webkit-scrollbar {
     display: none;
 } */
